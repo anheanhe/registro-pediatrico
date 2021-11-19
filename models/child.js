@@ -2,8 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   const child = sequelize.define('child', {
     name: {
-      type: DataTypes.STRING,
-      unique: true
+      type: DataTypes.STRING
     },
     birthDate: {
       type: DataTypes.STRING

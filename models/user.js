@@ -8,7 +8,8 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING
     },
     dni: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      unique: true
     },
     phone: {
       type: DataTypes.STRING
